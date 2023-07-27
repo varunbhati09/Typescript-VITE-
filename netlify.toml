@@ -1,0 +1,6 @@
+[build]
+  # Set the build command for your TypeScript project
+  command = "npm run build"
+
+  # Set the publish directory where the built files are located
+  publish = "dist"
