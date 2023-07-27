@@ -1,11 +1,8 @@
-/* DepartmentList.css */
 
-/* Style for department items */
 .DepartmentList-department {
   font-weight: bold;
 }
 
-/* Style for sub-department items */
 .DepartmentList-subDepartment {
   margin-left: 20px;
   color: #555;

@@ -12,10 +12,8 @@ const UserForm: React.FC = () => {
 
   const handleFormSubmit = () => {
     if (name && phoneNumber && email) {
-      // Save user details in local storage
       localStorage.setItem('userDetails', JSON.stringify({ name, phoneNumber, email }));
 
-      // Redirect to the second page
       navigate('/second-page');
     } else {
       alert('Please enter all details before submitting the form.');

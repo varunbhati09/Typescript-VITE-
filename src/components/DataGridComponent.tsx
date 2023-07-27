@@ -9,14 +9,12 @@ interface DataGridRowData {
 }
 
 interface DataGridComponentProps {
-  // Remove the 'data' prop since we will fetch data inside the component
 }
 
 const DataGridComponent: React.FC<DataGridComponentProps> = () => {
   const [data, setData] = useState<DataGridRowData[]>([]);
 
   useEffect(() => {
-    // Fetch data from the API
     fetch('https://jsonplaceholder.typicode.com/posts')
       .then((response) => response.json())
       .then((data) => setData(data));

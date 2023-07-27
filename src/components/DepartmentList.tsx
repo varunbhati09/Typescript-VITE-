@@ -1,10 +1,8 @@
-// src/components/DepartmentList.tsx
 import React, { useState } from 'react';
 import { List, ListItem, ListItemButton, ListItemIcon, ListItemText, Collapse, Checkbox } from '@mui/material';
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
 import './DepartmentList.css';
 
-// ... rest of the code remains the same ...
 
 
 interface DepartmentData {
