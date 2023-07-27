@@ -1,0 +1,27 @@
+/* src/components/DataGridComponent.css */
+.data-grid-container {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .MuiDataGrid-root {
+    border: 1px solid #ccc;
+  }
+  
+  .MuiDataGrid-columnsContainer {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .MuiDataGrid-columnHeader {
+    font-weight: bold;
+  }
+  
+  .MuiDataGrid-row {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .MuiDataGrid-cell {
+    padding: 8px;
+  }
+  
